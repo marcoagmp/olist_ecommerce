@@ -43,4 +43,12 @@ Depois de realizar uma boa limpeza e fazer uma manipulação com esses dados, fu
 
 ## O que foi feito até agora
 
-Baseado no esquema da [Figura 1](HRhd2Y0.png), realizou-se o seguinte mapeamento no 
+Baseado no esquema da [Figura 1](HRhd2Y0.png), realizou-se o mapeamento da [Figura 2](Olist_ecommerce.png) no [_MySQL Workbench_](https://www.mysql.com/products/workbench/): 
+
+<div align="center">
+  <img src="Olist_ecommerce.png" alt="Esquema Workbench" height="300px" , width="45%" />
+  <div align="center">
+    <br>
+    <b>Figura 2: </b> Esquema Workbench
+  </div>
+</div>
