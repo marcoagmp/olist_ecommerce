@@ -20,9 +20,9 @@ Depois que um cliente compra o produto da Olist Store, um vendedor é notificado
 Os dados são divididos em várias tabelas para um melhor entendimento e organização, sendo que estão relacionados entre si de acordo com o seguinte esquema:  
 
 <div align="center">
-  <img src="database_airline.jpeg" alt="Figura 3" height="300px" , width="45%" />
+  <img src="HRhd2Y0.png" alt="Data_Schema" height="300px" , width="45%" />
   <div align="center">
     <br>
-    <b>Figura 3: </b> Companhia linha aérea
+    <b>Figura 1: </b> Data Schema
   </div>
 </div>
