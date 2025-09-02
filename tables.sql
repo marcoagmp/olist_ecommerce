@@ -1,5 +1,3 @@
--- Primeiro, crie o banco de dados e selecione-o para uso.
--- DROP DATABASE IF EXISTS olist_ecommerce;
 CREATE DATABASE IF NOT EXISTS olist_ecommerce;
 USE olist_ecommerce;
 
