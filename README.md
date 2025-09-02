@@ -26,3 +26,21 @@ Os dados são divididos em várias tabelas para um melhor entendimento e organiz
     <b>Figura 1: </b> Data Schema
   </div>
 </div>
+
+## Objetivos
+
+Através desse dataset, meu objetivo inicial é realizar uma análise exploratória de dados para observar o desempenho de vendas de uma loja e-commerce e aprender mais sobre SQL, principalmente funções `JOINs` mais complexas. Perguntas interessantes que eu quero responder e consultar são:
+
+1. Qual a receita total por categoria de produto? (Usando JOIN e GROUP BY)
+2. Qual o ticket médio de compra por estado do cliente? (Usando JOIN e GROUP BY)
+3. Quantos pedidos foram feitos por mês? (Usando a função DATE_FORMAT e GROUP BY)
+4. Qual o tempo médio de entrega dos pedidos? (Calculando a diferença entre as datas de envio e de entrega)
+5. Quais produtos receberam as melhores e piores avaliações? (Usando JOIN com a tabela de reviews e ORDER BY)
+
+### Objetivos Futuros
+
+Depois de realizar uma boa limpeza e fazer uma manipulação com esses dados, futuramente o objetivo é realizar análises mais complexas como _clustering_ (categorização para definir nível de felicidade com a compra) e _predição de vendas_ para obter informações de futuras vendas. 
+
+## O que foi feito até agora
+
+Baseado no esquema da [Figura 1](Data_Schema)
