@@ -52,3 +52,5 @@ Baseado no esquema da [Figura 1](HRhd2Y0.png), realizou-se o mapeamento da [Figu
     <b>Figura 2: </b> Esquema Workbench
   </div>
 </div>
+
+Nesse sentido, foi elaborado o esquema conceitual em [_SQL_](tables.sql) ajustando os tipos de dados dos atributos. 
