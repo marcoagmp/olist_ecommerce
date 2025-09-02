@@ -43,4 +43,4 @@ Depois de realizar uma boa limpeza e fazer uma manipulação com esses dados, fu
 
 ## O que foi feito até agora
 
-Baseado no esquema da [Figura 1](HRhd2Y0.png)
+Baseado no esquema da [Figura 1](HRhd2Y0.png), realizou-se o seguinte mapeamento no 
