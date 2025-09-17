@@ -81,7 +81,7 @@ Baseado no esquema da [Figura 1](HRhd2Y0.png), realizou-se o mapeamento da [Figu
   </div>
 </div>
 
-O esquema conceitual foi implementado em [_SQL_](tables.sql), com ajustes nos tipos de dados dos atributos e as tabelas foram [populadas](insert_into.sql) com os arquivos _.csv_ do DataSet.
+O esquema conceitual foi implementado em [_SQL_](tables.sql), com ajustes nos tipos de dados dos atributos e as tabelas foram [populadas](insert_into_tables.sql) com os arquivos _.csv_ do DataSet.
 
 ## Recursos
 
