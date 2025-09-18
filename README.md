@@ -36,6 +36,7 @@ Depois que um cliente compra o produto da Olist Store, um vendedor é notificado
 > - Cada item pode ser atendido por um vendedor distinto, ou seja, um pedido pode envolver lojas diferentes.
 
 ---
+
 ## Esquema dos Dados
 
 Os dados são divididos em várias tabelas para um melhor entendimento e organização, sendo que estão relacionados entre si de acordo com o seguinte esquema:  
@@ -47,6 +48,8 @@ Os dados são divididos em várias tabelas para um melhor entendimento e organiz
     <b>Figura 1: </b> Data Schema
   </div>
 </div>
+
+---
 
 ## Objetivos
 
@@ -68,6 +71,8 @@ Através desse dataset, meu objetivo inicial é realizar uma **análise explorat
   - Otimização de processos logísticos com base nos dados coletados
 </details>
 
+---
+
 ## O que foi feito até agora
 
 Baseado no esquema da [Figura 1](HRhd2Y0.png), realizou-se o mapeamento da [Figura 2](Olist_ecommerce.png) no [_MySQL Workbench_](https://www.mysql.com/products/workbench/): 
@@ -83,8 +88,25 @@ Baseado no esquema da [Figura 1](HRhd2Y0.png), realizou-se o mapeamento da [Figu
 O esquema conceitual foi implementado em [_SQL_](tables.sql), com ajustes nos tipos de dados dos atributos e as tabelas foram [populadas](insert_into_tables.sql) com os arquivos _.csv_ do DataSet. 
 
 A partir disso, responderam-se as questões propostas: 
-1. "Qual o ticket médio de compra por estado?"
+<details>
+  <summary><strong>1. Qual o ticket médio de compra por estado?</strong></summary>
+
 Primeiro eu quis estabelecer uma relação entre a quantidade de vendas por Estado e depois comparar com a média de compra em cada estado de acordo com o total da compra (Peço + Frete).
+  <table align="center">
+    <tr>
+      <td align="center">
+        <img src="quantidade_pedido_estado.png" alt="Fig.3-Quantidade de pedido por estado" height="300px"/><br>
+        <b>Figura 3:</b> Quantidade de pedido por estado
+      </td>
+      <td align="center">
+        <img src="media_compra_estado.png" alt="Fig.4-Media de compra por estado" height="300px"/><br>
+        <b>Figura 4:</b> Media de compra por estado
+      </td>
+    </tr>
+  </table>
+</details>
+
+---
 
 ## Recursos
 
