@@ -18,7 +18,7 @@ Esse repositório é um projeto básico de análise de dados sobre o DataSet da 
 
 ## Sobre o DataSet
 
-Possui informações de aproximadamente **100 _mil_ pedidos** desde 2016 a 2018 realizados em inúmeros _marketplaces_ do Brasil. Suas características permitem a visão de muitas dimensões: desde status do pedido, preço, pagamento, frete até localização do cliente, atributos dos produtos e avaliações dos produtos escritas pelos usuários.
+Possui informações de aproximadamente **100 _mil_ pedidos** desde 2016 a 2018 realizados em inúmeros _marketplaces_ do Brasil. Suas características permitem a visão de muitas dimensões: desde status do pedido, preço, pagamento e frete, até localização do cliente, atributos dos produtos e avaliações dos produtos escritas pelos usuários.
 
 ---
 ## Contexto
