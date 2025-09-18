@@ -105,6 +105,9 @@ Primeiro eu quis estabelecer uma relação entre a quantidade de vendas por Esta
       </td>
     </tr>
   </table>
+
+Com as imagens podemos perceber algumas situações interessantes e que, de certa forma, fazem sentido com a realidade. Se pararmos para pensar, os estados com menor quantidade de produtos comprados apresentam uma maior média de compras e os estados com maior quantidade de produtos adquiridos, apresentam uma menor média. Isso revela que maior quantidade de compra não implica, necessariamente, uma maior média do valor de compra, o que faz sentido com a realidade.
+
 </details>
 
 ---
