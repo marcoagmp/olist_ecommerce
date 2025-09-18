@@ -52,11 +52,10 @@ Os dados são divididos em várias tabelas para um melhor entendimento e organiz
 
 Através desse dataset, meu objetivo inicial é realizar uma **análise exploratória de dados (_EDA_)** para observar o desempenho de vendas de uma loja e-commerce e aprender mais sobre SQL, principalmente funções `JOINs` mais complexas. Perguntas interessantes que eu quero responder e consultar são:
 
-1. Qual a receita total por categoria de produto? (Usando JOIN e GROUP BY)
-2. Qual o ticket médio de compra por estado do cliente? (Usando JOIN e GROUP BY)
-3. Quantos pedidos foram feitos por mês? (Usando a função DATE_FORMAT e GROUP BY)
-4. Qual o tempo médio de entrega dos pedidos? (Calculando a diferença entre as datas de envio e de entrega)
-5. Quais produtos receberam as melhores e piores avaliações? (Usando JOIN com a tabela de reviews e ORDER BY)
+1. Qual o ticket médio de compra por estado do cliente? (Usando JOIN e GROUP BY)
+2. Quantos pedidos foram feitos por mês? (Usando a função DATE_FORMAT e GROUP BY)
+3. Qual o tempo médio de entrega dos pedidos? (Calculando a diferença entre as datas de envio e de entrega)
+4. Quais produtos receberam as melhores e piores avaliações? (Usando JOIN com a tabela de reviews e ORDER BY)
 
 <details>
   <summary><strong>Objetivos Futuros</strong></summary>
@@ -81,7 +80,11 @@ Baseado no esquema da [Figura 1](HRhd2Y0.png), realizou-se o mapeamento da [Figu
   </div>
 </div>
 
-O esquema conceitual foi implementado em [_SQL_](tables.sql), com ajustes nos tipos de dados dos atributos e as tabelas foram [populadas](insert_into_tables.sql) com os arquivos _.csv_ do DataSet.
+O esquema conceitual foi implementado em [_SQL_](tables.sql), com ajustes nos tipos de dados dos atributos e as tabelas foram [populadas](insert_into_tables.sql) com os arquivos _.csv_ do DataSet. 
+
+A partir disso, responderam-se as questões propostas: 
+1. "Qual o ticket médio de compra por estado?"
+Primeiro eu quis estabelecer uma relação entre a quantidade de vendas por Estado e depois comparar com a média de compra em cada estado de acordo com o total da compra (Peço + Frete).
 
 ## Recursos
 
