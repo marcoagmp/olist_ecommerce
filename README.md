@@ -42,7 +42,7 @@ Depois que um cliente compra o produto da Olist Store, um vendedor é notificado
 Os dados são divididos em várias tabelas para um melhor entendimento e organização, sendo que estão relacionados entre si de acordo com o seguinte esquema:  
 
 <div align="center">
-  <img src="HRhd2Y0.png" alt="Data_Schema" height="300px" , width="45%" />
+  <img src="HRhd2Y0.png" alt="Data_Schema" height="400px"/>
   <div align="center">
     <br>
     <b>Figura 1: </b> Data Schema
@@ -69,6 +69,7 @@ Através desse dataset, meu objetivo inicial é realizar uma **análise explorat
   - Criação de dashboards interativos
   - Aplicação de métodos de machine learning para previsão de vendas e churn
   - Otimização de processos logísticos com base nos dados coletados
+  - Aplicar funcionalidades da biblioteca _pandas_ do python para visualização de gráficos
 </details>
 
 ---
@@ -78,7 +79,7 @@ Através desse dataset, meu objetivo inicial é realizar uma **análise explorat
 Baseado no esquema da [Figura 1](HRhd2Y0.png), realizou-se o mapeamento da [Figura 2](Olist_ecommerce.png) no [_MySQL Workbench_](https://www.mysql.com/products/workbench/): 
 
 <div align="center">
-  <img src="Olist_ecommerce.png" alt="Esquema Workbench" height="300px" , width="45%" />
+  <img src="Olist_ecommerce.png" alt="Esquema Workbench" height="500px" />
   <div align="center">
     <br>
     <b>Figura 2: </b> Esquema Workbench
@@ -95,11 +96,11 @@ Primeiro eu quis estabelecer uma relação entre a quantidade de vendas por Esta
   <table align="center">
     <tr>
       <td align="center">
-        <img src="quantidade_pedido_estado.png" alt="Fig.3-Quantidade de pedido por estado" height="300px"/><br>
+        <img src="quantidade_pedido_estado.png" alt="Fig.3-Quantidade de pedido por estado" height="500px"/><br>
         <b>Figura 3:</b> Quantidade de pedido por estado
       </td>
       <td align="center">
-        <img src="media_compra_estado.png" alt="Fig.4-Media de compra por estado" height="300px"/><br>
+        <img src="media_compra_estado.png" alt="Fig.4-Media de compra por estado" height="500px"/><br>
         <b>Figura 4:</b> Media de compra por estado
       </td>
     </tr>
